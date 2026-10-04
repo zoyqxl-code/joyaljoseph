@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joyal Joseph · Videographer · Video Editor · 3D Artist · VFX · Entrepreneur</title>
+  <meta name="description" content="Joyal Joseph is a multi-disciplinary creative professional specializing in videography, video editing, 3D art (Blender), VFX, drone cinematography, and entrepreneurship.">
+  <meta name="keywords" content="Joyal Joseph, Videographer, Video Editor, 3D Artist, VFX, Entrepreneur, Drone, Blender, Cinematography">
+  <meta name="author" content="Joyal Joseph">
+  <meta property="og:title" content="Joyal Joseph · Creative Portfolio">
+  <meta property="og:description" content="Videographer · Editor · 3D & VFX Artist · Entrepreneur">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <span class="loader-text">JOYAL JOSEPH</span>
+    </div>
+  </div>
+
+  <!-- Floating Hire Me Button -->
+  <a href="#contact" class="hire-me-btn" id="hireMeBtn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Hire Me
+  </a>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-j">J</span><span class="logo-text">oyal</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#lab" class="nav-link">3D & VFX</a>
+        <a href="#bts" class="nav-link">BTS</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#ventures" class="nav-link">Ventures</a>
+        <a href="#contact" class="nav-link nav-link-cta">Let's Talk</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <a href="#work" class="mobile-link" data-index="01">Work</a>
+      <a href="#lab" class="mobile-link" data-index="02">3D & VFX Lab</a>
+      <a href="#bts" class="mobile-link" data-index="03">Behind the Scenes</a>
+      <a href="#about" class="mobile-link" data-index="04">About</a>
+      <a href="#skills" class="mobile-link" data-index="05">Skills & Tools</a>
+      <a href="#services" class="mobile-link" data-index="06">Services</a>
+      <a href="#achievements" class="mobile-link" data-index="07">Achievements</a>
+      <a href="#ventures" class="mobile-link" data-index="08">Ventures</a>
+      <a href="#testimonials" class="mobile-link" data-index="09">Testimonials</a>
+      <a href="#contact" class="mobile-link" data-index="10">Contact</a>
+    </div>
+  </div>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for projects
+        </div>
+        <h1 class="hero-name">
+          <span class="hero-name-line">Joyal</span>
+          <span class="hero-name-line accent">Joseph</span>
+        </h1>
+        <p class="hero-tagline">Videographer · Editor · 3D & VFX Artist · Entrepreneur</p>
+        <div class="hero-buttons">
+          <a href="#work" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            View Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Let's Talk
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-video-area">
+        <div class="hero-video-wrapper" id="heroVideoWrapper">
+          <div class="hero-video-label">This is me</div>
+          <div class="hero-video-frame">
+            <iframe 
+              src="https://www.youtube.com/embed/eTeef27jm9w?autoplay=1&mute=1&loop=1&playlist=eTeef27jm9w&controls=0&showinfo=0&rel=0&playsinline=1" 
+              title="Joyal Joseph - Intro Video"
+              frameborder="0" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <button class="hero-video-unmute" id="heroVideoUnmute" title="Watch with sound">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+            <span>Watch with sound</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== WORK / SHOWREEL SECTION ========== -->
+  <section id="work" class="section work-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Selected <span class="accent">Work</span></h2>
+        <p class="section-subtitle">A curated collection of my best videography, editing, 3D, VFX, and drone projects</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="videography">Videography</button>
+        <button class="filter-tab" data-filter="editing">Editing</button>
+        <button class="filter-tab" data-filter="3d">3D (Blender)</button>
+        <button class="filter-tab" data-filter="vfx">VFX</button>
+        <button class="filter-tab" data-filter="drone">Drone</button>
+        <button class="filter-tab" data-filter="podcast">Podcast</button>
+      </div>
+
+      <!-- Featured Projects -->
+      <div class="projects-grid" id="projectsGrid">
+
+        <!-- Featured: Nikon ZR Shoot -->
+        <div class="project-card featured" data-category="videography" data-aos="fade-up">
+          <div class="project-thumbnail">
+            <iframe src="https://www.youtube.com/embed/uJ6taCk3LWQ" title="Nikon ZR + RS3 Mini Video Shoot" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+            <div class="project-overlay">
+              <span class="project-tag">Cinematography · Gimbal</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Nikon ZR + RS3 Mini Shoot</h3>
+            <p class="project-desc">Video shoot filmed with the Nikon ZR and DJI RS3 Mini gimbal. Smooth cinematic footage showcasing gear capabilities.</p>
+            <div class="project-meta">
+              <span class="project-role">Videographer · Editor</span>
+              <span class="project-tools">Nikon ZR, DJI RS3 Mini, Premiere Pro</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured: Venture Navigator Podcast -->
+        <div class="project-card featured" data-category="podcast" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-thumbnail">
+            <iframe src="https://www.youtube.com/embed/yNArH3UZ49w?start=3331" title="Venture Navigator Podcast" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+            <div class="project-overlay">
+              <span class="project-tag">Podcast · Long-form</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Venture Navigator Podcast</h3>
+            <p class="project-desc">Podcast video produced for Venture Navigator. Full production from filming to editing.</p>
+            <div class="project-meta">
+              <span class="project-role">Videographer · Editor</span>
+              <span class="project-tools">Premiere Pro, After Effects</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shorts Grid -->
+        <div class="project-card" data-category="videography editing" data-aos="fade-up">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/e2wq6P8mmoY" title="GN5 Short" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">GN5</h3>
+            <span class="project-tag-inline">Short Film</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="50">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/WmLnyfrq6BA" title="Sonos v3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Sonos v3</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/mUrMwJpqvlE" title="Blossumup" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Blossumup</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/awLNzQLCfy0" title="Blossumup 2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Blossumup (2)</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="drone videography" data-aos="fade-up">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/3hoESm4DDxU" title="Farm Land v3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Farm Land v3</h3>
+            <span class="project-tag-inline">Drone · Aerial</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="50">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/EkQ881L8G7o" title="Denkanikottai v5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Denkanikottai v5</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="drone videography" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/xTfQ9epsE38" title="Farm Land v1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Farm Land v1</h3>
+            <span class="project-tag-inline">Drone · Aerial</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/B7Wrx6r5_lE" title="Chadanam v3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Chadanam v3</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/4RjFA8X3pV8" title="Esyhascouetyard v4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Esyhascouetyard v4</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="editing vfx" data-aos="fade-up" data-aos-delay="50">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/xJu9DPQytCQ" title="444" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">444</h3>
+            <span class="project-tag-inline">VFX · Edit</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/8aZF2deO1yM" title="V3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">V3</h3>
+            <span class="project-tag-inline">Short</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="videography editing" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-thumbnail vertical">
+            <iframe src="https://www.youtube.com/embed/0mSacUvTg_s" title="Projects Showcase" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Projects Showcase</h3>
+            <span class="project-tag-inline">Reel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3D & VFX LAB ========== -->
+  <section id="lab" class="section lab-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Creative Lab</span>
+        <h2 class="section-title">3D & <span class="accent">VFX</span> Lab</h2>
+        <p class="section-subtitle">Blender renders, turntables, breakdowns, and Houdini experiments</p>
+      </div>
+      <div class="lab-grid">
+        <div class="lab-card" data-aos="fade-up">
+          <div class="lab-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Blender Renders</h3>
+          <p>Photorealistic and stylized 3D renders exploring materials, lighting, and composition.</p>
+          <span class="lab-status">Active</span>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="lab-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Turntables</h3>
+          <p>360° object turntables showing modeling detail and surface quality.</p>
+          <span class="lab-status">Active</span>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="lab-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="22" y2="7"/><line x1="2" y1="17" x2="22" y2="17"/></svg>
+          </div>
+          <h3>VFX Breakdowns</h3>
+          <p>Step-by-step breakdowns of visual effects shots and compositing workflows.</p>
+          <span class="lab-status">Active</span>
+        </div>
+        <div class="lab-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="lab-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Houdini Experiments</h3>
+          <p>Procedural simulations, particle systems, and fluid dynamics explorations.</p>
+          <span class="lab-status coming-soon">Coming Soon</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BEHIND THE SCENES ========== -->
+  <section id="bts" class="section bts-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Process</span>
+        <h2 class="section-title">Behind the <span class="accent">Scenes</span></h2>
+        <p class="section-subtitle">Raw footage from shoots and before/after VFX breakdowns</p>
+      </div>
+      <div class="bts-grid">
+        <div class="bts-card" data-aos="fade-up">
+          <div class="bts-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </div>
+          <h3>On-Set Footage</h3>
+          <p>Behind-the-camera moments from video shoots, including setup, lighting, and crew coordination.</p>
+        </div>
+        <div class="bts-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="bts-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Before / After VFX</h3>
+          <p>Side-by-side comparisons of raw footage versus final composited output with visual effects.</p>
+        </div>
+        <div class="bts-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="bts-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          </div>
+          <h3>Drone & Gimbal Rigs</h3>
+          <p>Gear setups and test flights with the DJI drones and RS3 Mini gimbal in action.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content" data-aos="fade-right">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">The <span class="accent">Story</span></h2>
+          <p class="about-text">
+            I'm <strong>Joyal Joseph</strong> — a multi-disciplinary creative and entrepreneur based in India. 
+            My journey spans across <strong>videography</strong>, <strong>video editing</strong>, <strong>3D art</strong>, 
+            <strong>VFX</strong>, and <strong>drone cinematography</strong>.
+          </p>
+          <p class="about-text">
+            I bring stories to life through the lens — from cinematic short films and brand videos to immersive 
+            3D renders and visual effects. On the business side, I'm building ventures in 
+            <strong>e-commerce</strong> and <strong>export-import</strong>, blending creative vision with 
+            entrepreneurial ambition.
+          </p>
+          <p class="about-text">
+            Currently exploring <strong>Houdini</strong> and pushing the boundaries of procedural art while 
+            sharpening my skills in <strong>Final Cut Pro</strong>.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="50">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Tools Mastered</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Creative Disciplines</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual" data-aos="fade-left">
+          <div class="about-image-frame">
+            <div class="about-placeholder">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Joyal Joseph</span>
+            </div>
+          </div>
+          <div class="about-floating-badge">
+            <span>🎬</span> Creative & Entrepreneur
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS & TOOLS ========== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Expertise</span>
+        <h2 class="section-title">Skills & <span class="accent">Tools</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="0">
+          <div class="skill-icon blender">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <span class="skill-name">Blender</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+        </div>
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="50">
+          <div class="skill-icon premiere">
+            <span>Pr</span>
+          </div>
+          <span class="skill-name">Premiere Pro</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+        </div>
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="100">
+          <div class="skill-icon aftereffects">
+            <span>Ae</span>
+          </div>
+          <span class="skill-name">After Effects</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+        </div>
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="150">
+          <div class="skill-icon davinci">
+            <span>DV</span>
+          </div>
+          <span class="skill-name">DaVinci Resolve</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+        </div>
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="200">
+          <div class="skill-icon houdini">
+            <span>H</span>
+          </div>
+          <span class="skill-name">Houdini</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 30%"></div></div>
+          <span class="skill-learning">Learning</span>
+        </div>
+        <div class="skill-chip" data-aos="zoom-in" data-aos-delay="250">
+          <div class="skill-icon fcp">
+            <span>FC</span>
+          </div>
+          <span class="skill-name">Final Cut Pro</span>
+          <div class="skill-bar"><div class="skill-progress" style="--progress: 25%"></div></div>
+          <span class="skill-learning">Learning</span>
+        </div>
+      </div>
+
+      <!-- Gear Section -->
+      <div class="gear-section" data-aos="fade-up">
+        <h3 class="gear-title">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          My Gear
+        </h3>
+        <div class="gear-grid">
+          <div class="gear-item">
+            <div class="gear-icon">📷</div>
+            <span class="gear-name">Nikon ZR</span>
+            <span class="gear-category">Camera</span>
+          </div>
+          <div class="gear-item">
+            <div class="gear-icon">🎚️</div>
+            <span class="gear-name">DJI RS3 Mini</span>
+            <span class="gear-category">Gimbal</span>
+          </div>
+          <div class="gear-item">
+            <div class="gear-icon">🚁</div>
+            <span class="gear-name">DJI Flip</span>
+            <span class="gear-category">Drone</span>
+          </div>
+          <div class="gear-item">
+            <div class="gear-icon">🚁</div>
+            <span class="gear-name">DJI Mini</span>
+            <span class="gear-category">Drone</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Do</span>
+        <h2 class="section-title">My <span class="accent">Services</span></h2>
+        <p class="section-subtitle">Professional creative services tailored to bring your vision to life</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up">
+          <div class="service-number">01</div>
+          <div class="service-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          </div>
+          <h3>Video Production</h3>
+          <p>End-to-end video production — from concept and storyboard to filming and final delivery. Brand videos, short films, events, and more.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-number">02</div>
+          <div class="service-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Professional editing with pacing, color grading, sound design, and motion graphics. Shorts, reels, long-form content, and podcasts.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-number">03</div>
+          <div class="service-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>3D Animation</h3>
+          <p>Blender-powered 3D modeling, texturing, animation, and rendering for products, explainers, and creative visuals.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-number">04</div>
+          <div class="service-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Visual Effects</h3>
+          <p>Compositing, tracking, green screen keying, and visual effects that elevate your footage to the next level.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-number">05</div>
+          <div class="service-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>Drone Shoots</h3>
+          <p>Aerial cinematography with DJI drones — sweeping landscapes, property tours, events, and dramatic establishing shots.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS ========== -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Journey</span>
+        <h2 class="section-title">Achievements & <span class="accent">Milestones</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Present</span>
+            <h3>Multi-Disciplinary Creator</h3>
+            <p>Working across videography, 3D, VFX, and drone cinematography while building entrepreneurial ventures.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Ongoing</span>
+            <h3>E-Commerce & Export-Import</h3>
+            <p>Launching ventures in e-commerce and export-import, blending business acumen with creative expertise.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Growing</span>
+            <h3>YouTube & Social Media</h3>
+            <p>Building a portfolio of short films, reels, and creative content across YouTube and social platforms.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Learning</span>
+            <h3>Houdini & Procedural Art</h3>
+            <p>Expanding into Houdini for procedural simulations, particle effects, and advanced 3D workflows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ENTREPRENEUR / VENTURES ========== -->
+  <section id="ventures" class="section ventures-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Business</span>
+        <h2 class="section-title">Entrepreneur <span class="accent">Ventures</span></h2>
+        <p class="section-subtitle">Where creativity meets business — my entrepreneurial journey</p>
+      </div>
+      <div class="ventures-grid">
+        <div class="venture-card" data-aos="fade-up">
+          <div class="venture-icon">🛒</div>
+          <h3>E-Commerce</h3>
+          <p>Building an online retail presence with a focus on quality products and seamless customer experiences.</p>
+          <span class="venture-status">In Progress</span>
+        </div>
+        <div class="venture-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="venture-icon">🌍</div>
+          <h3>Export-Import</h3>
+          <p>Exploring international trade opportunities, connecting local products with global markets.</p>
+          <span class="venture-status">Planned</span>
+        </div>
+        <div class="venture-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="venture-icon">🎬</div>
+          <h3>Creative Studio</h3>
+          <p>A full-service creative production studio offering video, 3D, and VFX solutions for brands and agencies.</p>
+          <span class="venture-status">Vision</span>
+        </div>
+      </div>
+      <div class="venture-podcast" data-aos="fade-up">
+        <div class="venture-podcast-embed">
+          <iframe src="https://www.youtube.com/embed/yNArH3UZ49w?start=3331" title="Venture Navigator Podcast" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="venture-podcast-info">
+          <span class="section-label">Featured On</span>
+          <h3>Venture Navigator Podcast</h3>
+          <p>Watch my appearance on the Venture Navigator podcast discussing creative entrepreneurship and future plans.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Feedback</span>
+        <h2 class="section-title">What People <span class="accent">Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="testimonial-quote">"</div>
+          <p>Joyal's videography skills are exceptional. The final product exceeded our expectations with stunning visuals and seamless editing.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div>
+              <strong>Client</strong>
+              <span>Video Production</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-quote">"</div>
+          <p>Incredible attention to detail in every frame. His drone shots and editing brought a whole new dimension to our project.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div>
+              <strong>Collaborator</strong>
+              <span>Drone & Editing</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-quote">"</div>
+          <p>Creative, professional, and always delivers on time. His 3D work in Blender is top-notch and adds a unique flair.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div>
+              <strong>Client</strong>
+              <span>3D & VFX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title">Let's Create <span class="accent">Together</span></h2>
+          <p class="contact-text">Have a project in mind? Let's talk about how we can bring your vision to life with stunning visuals and creative storytelling.</p>
+          <div class="contact-methods">
+            <a href="mailto:zoyqzl@gmail.com" class="contact-method">
+              <div class="contact-method-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <span>zoyqzl@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/918606694162" class="contact-method" target="_blank" rel="noopener">
+              <div class="contact-method-icon whatsapp">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>+91 8606694162</span>
+              </div>
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" title="YouTube" target="_blank" rel="noopener">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" class="social-link" title="Instagram" target="_blank" rel="noopener">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" title="LinkedIn" target="_blank" rel="noopener">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" title="Behance" target="_blank" rel="noopener">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 3.211 3.483 3.312 4.588 2.029h3.168zm-7.686-4h4.965c-.105-1.547-1.136-2.219-2.477-2.219-1.466 0-2.277.768-2.488 2.219zm-9.574 6.988H0V5.021h6.953c5.476.081 5.58 5.444 2.72 6.906 3.461 1.26 3.577 8.061-3.207 8.061zM3 11h3.584c2.508 0 2.906-3-.312-3H3v3zm3.391 3H3v3.016h3.341c3.055 0 2.868-3.016.05-3.016z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="formName" name="name" placeholder="Your Name" required>
+              <label for="formName">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="formEmail" name="email" placeholder="Your Email" required>
+              <label for="formEmail">Your Email</label>
+            </div>
+            <div class="form-group">
+              <select id="formService" name="service">
+                <option value="" disabled selected>Select a Service</option>
+                <option value="video-production">Video Production</option>
+                <option value="video-editing">Video Editing</option>
+                <option value="3d-animation">3D Animation</option>
+                <option value="vfx">Visual Effects</option>
+                <option value="drone">Drone Shoots</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="formService">Service</label>
+            </div>
+            <div class="form-group">
+              <textarea id="formMessage" name="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+              <label for="formMessage">Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-j">J</span><span class="logo-text">oyal Joseph</span>
+          <p>Videographer · Editor · 3D & VFX Artist · Entrepreneur</p>
+        </div>
+        <div class="footer-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Joyal Joseph. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
